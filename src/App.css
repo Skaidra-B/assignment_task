@@ -1,0 +1,13 @@
+.country-card {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+.d-flex {
+    display: flex;
+}
