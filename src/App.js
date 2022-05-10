@@ -17,7 +17,7 @@ function App() {
 
     const [getData, setData] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
-    const [postsPerPage, setsPostPerPage] = useState(10)
+    const [postsPerPage] = useState(10)
 
     const indexOfLastPost = currentPage * postsPerPage
     const indexOfFirstPost = indexOfLastPost - postsPerPage
